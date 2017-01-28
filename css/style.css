@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'SECCON_TOWER';
+  src: url('../fonts/seccon_tower.woff2') format('woff2'),
+       url('../fonts/seccon_tower.woff') format('woff');
+}
+
+html {
+  font-family: 'SECCON_TOWER';
+}

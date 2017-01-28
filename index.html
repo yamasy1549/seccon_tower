@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <title>seccon_tower</title>
+  </head>
+  <body>
+    <p>INPUT WORDS TO THE BOX BELOW.</p>
+    <textarea id='input' onInput='convert(this)'></textarea>
+    <p>OUTPUT:</p>
+    <p id='output'></p>
+  </body>
+
+  <script>
+    var output = document.getElementById('output')
+
+    function convert(e) {
+      var input = e.value
+      output.textContent = input
+    }
+  </script>
+</html>
